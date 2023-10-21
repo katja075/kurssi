@@ -1,0 +1,55 @@
+body {
+    background-color: #B7C2EF;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: darkblue;
+    line-height: 1.0;
+    margin: 10; /* Lisätty riviväli saavutettavuuden parantamiseksi */
+}
+
+header {
+    background-color: #95AAFF;
+    padding: 10px;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+     /* Lisätty hieman tilaa navigointipalkin ympärille */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10;
+    text-align: right; /* Poistettu listan sisäiset marginaalit ja sisennys */
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+img.header-image {
+    max-height: 100vh;
+    width: auto; /* Kuva skaalautuu responsiivisesti ruudun leveyden mukaan */
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+.cv-section {
+marginn: 20px;
+padding: 10px;
+dorder: 1px solid #ddd;
+border-radius: 5xp;
+}
+h2 {
+    color #333;
+}
+strong {
+    front-weight: dold;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; /* Lisätty tilaa sisällön ympärille */
+} 
